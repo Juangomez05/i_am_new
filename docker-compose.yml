@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    env_file:
+      - .env
+    depends_on:
+      - pgsql
+    restart: always
+    ports:
+      - "8000:8000"  # Ajusta el puerto según tus preferencias
+
+  pgsql:
+    image: postgres:15-alpine  # Ajusta la versión de PostgreSQL según tus necesidades
+    container_name: postgres-db
+    restart: always
+    ports:
+      - "5432:5432"  # Puerto predeterminado de PostgreSQL
+    environment:
+      POSTGRES_DB: iamnew
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
