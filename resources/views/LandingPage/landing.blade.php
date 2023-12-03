@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Soy nuevo en la U</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -60,7 +60,9 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/derecho-codigo-snies-20434">
                                 <img class="img-fluid" src="assets/img/portfolio/derecho.png" alt="..." />
+                                
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Derecho</div>
@@ -75,6 +77,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/ingenieria-software-computacion-codigo-snies-110398">
                                 <img class="img-fluid" src="assets/img/portfolio/software.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -90,6 +93,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/ingenieria-electronica-codigo-snies-20415">
                                 <img class="img-fluid" src="assets/img/portfolio/electronica.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -105,6 +109,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/administracion-empresas-codigo-snies-19828">
                                 <img class="img-fluid" src="assets/img/portfolio/administracion.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -120,6 +125,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/entrenamiento-deportivo-codigo-snies-104958">
                                 <img class="img-fluid" src="assets/img/portfolio/entrenamiento.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -135,6 +141,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/licenciatura-educacion-infantil-codigo-snies-101452">
                                 <img class="img-fluid" src="assets/img/portfolio/infantil.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -150,6 +157,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/contaduria-publica-codigo-snies-103461">
                                 <img class="img-fluid" src="assets/img/portfolio/contaduria.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -165,6 +173,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/gobierno-relaciones-internacionales-codigo-snies-110011">
                                 <img class="img-fluid" src="assets/img/portfolio/gobierno.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -180,6 +189,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/ingenieria-energetica-codigo-snies-110670">
                                 <img class="img-fluid" src="assets/img/portfolio/energetica.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -195,6 +205,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/ingenieria-ambiental-saneamiento-codigo-snies-110683-0">
                                 <img class="img-fluid" src="assets/img/portfolio/ambiental.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -210,6 +221,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/matematicas-aplicadas-ciencia-datos-codigo-snies-110670">
                                 <img class="img-fluid" src="assets/img/portfolio/datos.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -225,6 +237,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/finanzas-negocios-internacionales-codigo-snies-51772-0">
                                 <img class="img-fluid" src="assets/img/portfolio/finanzas.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
@@ -240,6 +253,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                <a href="https://www.uniautonoma.edu.co/programa/ingenieria-civil-codigo-snies-111155">
                                 <img class="img-fluid" src="assets/img/portfolio/civil.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
