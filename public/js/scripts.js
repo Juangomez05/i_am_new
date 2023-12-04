@@ -52,3 +52,136 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const teamMembers = [
+        {
+            name: "Bruno Mantilla Pinto",
+            role: "Fundador",
+            imgSrc: "assets/img/team/rector_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Daniel Augusto Mantilla",
+            role: "Rector",
+            imgSrc: "assets/img/team/rector_5.png",
+            instagram: "https://www.instagram.com/danielmantillas/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Isabel Ramírez Mejía",
+            role: "Vicerrectora Académica",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Isabel Tobar Estrada",
+            role: "Directora de Posicionamiento",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/danielmantillas/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Julián Andrés Caicedo",
+            role: "Vicerrector Investigación",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/danielmantillas/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Matilde Andrea López",
+            role: "Jefe Comunidad Universitaria",
+            imgSrc: "assets/img/team/3.jpg",
+            instagram: "https://www.instagram.com/danielmantillas/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Manuel Andrés Belalcázar",
+            role: "Vicerrector Administrativo",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Óscar Alvarado Muñoz",
+            role: "Director de Planeación y Evaluación",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Santiago Muñoz de la Rosa",
+            role: "Vicerrector de Relacionamiento con el Entorno",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Juan Pablo Prado",
+            role: "Decano Facultad Ciencias Ambientales y Desarrollo Sostenible",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Juan Pablo Sterling",
+            role: "Decano Facultad Ciencias Sociales y Humanidades",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        {
+            name: "Juan Pablo Diago",
+            role: "Decano Facultad de Ingeniería y ciencias Naturales",
+            imgSrc: "assets/img/team/isabel_5.png",
+            instagram: "https://www.instagram.com/isabeltobar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==",
+            linkedin: "https://www.linkedin.com/in/daniel-augusto-mantilla-sandoval-39a03028/"
+        },
+        
+    ];
+
+    const teamCarousel = document.getElementById("teamCarousel");
+
+    teamMembers.forEach((member, index) => {
+        const slide = document.createElement("div");
+        slide.classList.add("col-lg-4", "team-member");
+
+        slide.innerHTML = `
+            <img class="mx-auto rounded-circle" src="${member.imgSrc}" alt="${member.name}" />
+            <h4>${member.name}</h4>
+            <p class="text-muted">${member.role}</p>
+            <a class="btn btn-dark btn-social mx-2" href="${member.instagram}" aria-label="${member.name} Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="${member.linkedin}" aria-label="${member.name} LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+        `;
+
+        teamCarousel.appendChild(slide);
+    });
+
+    let currentIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        const slides = document.getElementsByClassName("team-member");
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        for (let i = currentIndex; i < currentIndex + 3; i++) {
+            if (slides[i]) {
+                slides[i].style.display = "block";
+            }
+        }
+
+        currentIndex += 3;
+
+        if (currentIndex >= slides.length) {
+            currentIndex = 0;
+        }
+
+        setTimeout(showSlides, 4000); // Cambia la diapositiva cada 2 segundos (ajusta según sea necesario)
+    }
+});
