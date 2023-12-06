@@ -10960,7 +10960,7 @@ header.masthead {
   padding-top: 80px;
   padding-bottom: 6rem;
   text-align: center;
-  color: white;
+  color: #00498B;
   background-image: url("../assets/img/inicio3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11362,4 +11362,12 @@ button {
 }
 
 
+#formulario {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+}
 

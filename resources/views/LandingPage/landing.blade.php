@@ -43,10 +43,10 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading" style="padding-top: 100px;">¡Bienvenido a tu nueva aventura académica! En
+            <div class="masthead-subheading" style="padding-top: 110px;">¡Bienvenido a tu nueva aventura académica! En
                 esta página, encontrarás toda la información que necesitas para sumararte a la experiencia Uniautónoma.
             </div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">¡Inscríbete ahora!</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="https://evaluaciond.uniautonoma.edu.co/web/index.php?r=solicitud-inscripcion%2Findex">¡Inscríbete ahora!</a>
         </div>
     </header>
 
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Descubre Nuestros Programas Educativos</h2>
-                <h3 class="section-subheading text-muted">Impulsando tu aprendizaje hacia el éxito.</h3>
+                <h3 class="section-subheading text-muted" style="font-size: 20px;">Impulsando tu aprendizaje hacia el éxito.</h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
@@ -323,7 +323,7 @@
                     <p class="text-muted mx-5" style="font-size: 20px;">Descubre un mundo de oportunidades en nuestra
                         universidad. ¿Listo para el siguiente paso? Haz clic a continuación y sé parte de una
                         experiencia educativa única.</p>
-                    <a href="#tu-enlace-de-inscripcion" class="btn btn-primary my-4"
+                    <a href="https://evaluaciond.uniautonoma.edu.co/web/index.php?r=solicitud-inscripcion%2Findex" class="btn btn-primary my-4"
                         style="font-size: 25px;">¡Inscribete!</a>
                 </div>
                 <div class="col-md">
@@ -332,29 +332,36 @@
                     <p class="text-muted" style="font-size: 20px;">Sube tus documentos para la matrícula en formato
                         pdf:</p>
 
-                    <form action="procesar_archivo.php" method="post" enctype="multipart/form-data">
-                        <label class="text-muted" for="examenesMedicos">Exámenes Médicos:</label>
-                        <input class="text-muted" type="file" name="examenesMedicos" id="examenesMedicos"
-                            accept=".pdf">
+                    <label style="font-size: 20px;" for="numeroIdentidad">Número de Identidad:</label>
+                    <input style="font-size: 15px;" type="text" id="numeroIdentidad">
+                    <button style="margin-top: 0;" class="btn btn-primary" onclick="validarIdentidad()">Validar</button>
 
-                        <label class="text-muted" for="certificadoEps">Certificado EPS:</label>
-                        <input class="text-muted" type="file" name="certificadoEps" id="certificadoEps"
-                            accept=".pdf">
+                    <div id="formulario">
+                        <form action="procesar_archivo.php" method="post" enctype="multipart/form-data">
+                            <label class="text-muted" for="examenesMedicos">Exámenes Médicos:</label>
+                            <input class="text-muted" type="file" name="examenesMedicos" id="examenesMedicos"
+                                accept=".pdf">
 
-                        <label class="text-muted" for="registroCivil">Registro Civil:</label>
-                        <input class="text-muted" type="file" name="registroCivil" id="registroCivil"
-                            accept=".pdf">
+                            <label class="text-muted" for="certificadoEps">Certificado EPS:</label>
+                            <input class="text-muted" type="file" name="certificadoEps" id="certificadoEps"
+                                accept=".pdf">
 
-                        <label class="text-muted" for="serologia">Serología:</label>
-                        <input class="text-muted" type="file" name="serologia" id="serologia" accept=".pdf">
+                            <label class="text-muted" for="registroCivil">Registro Civil:</label>
+                            <input class="text-muted" type="file" name="registroCivil" id="registroCivil"
+                                accept=".pdf">
 
-                        <label class="text-muted" for="matricula">Recibo de Pago de Matrícula:</label>
-                        <input class="text-muted" type="file" name="matricula" id="matricula" accept=".pdf">
+                            <label class="text-muted" for="serologia">Serología:</label>
+                            <input class="text-muted" type="file" name="serologia" id="serologia"
+                                accept=".pdf">
 
-                        <!-- Repite este bloque para cada tipo de documento que desees -->
+                            <label class="text-muted" for="matricula">Recibo de Pago de Matrícula:</label>
+                            <input class="text-muted" type="file" name="matricula" id="matricula"
+                                accept=".pdf">
 
-                        <button type="submit" class="btn btn-primary">Enviar Documentos</button>
-                    </form>
+                            <button type="submit" class="btn btn-primary">Enviar Documentos</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -381,7 +388,7 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid " src="assets/img/about/2.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid " src="assets/img/about/laboratorios.png"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
