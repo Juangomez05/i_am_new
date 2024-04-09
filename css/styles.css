@@ -10966,6 +10966,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  opacity: 0.7;
 }
 
 header.masthead .btn {
