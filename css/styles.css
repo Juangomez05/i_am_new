@@ -10960,13 +10960,15 @@ header.masthead {
   padding-top: 80px;
   padding-bottom: 6rem;
   text-align: center;
-  color: #00498B;
-  background-image: url("../assets/img/inicio3.jpg");
+  color: #f0f0f0;
+  background-image: url("../assets/img/inicio4.jpg");
   background-repeat: no-repeat;
+  background-color: black;
+  opacity: 1.5;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  opacity: 0.7;
+  text-shadow: 0 0 3px #000000;
 }
 
 header.masthead .btn {
